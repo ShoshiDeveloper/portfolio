@@ -246,6 +246,38 @@ body {
 }
 
 @media (max-width : 425px) {
+    .nav {
+    
+    margin: 20px 0 49px 32px;
+}
+    .MyName {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    
+    
+    margin: 49px 0px 0px 30px;
+}
+    
+    .logo h1 {
+        font-size: 32px;
+    }
+    .logo img {
+        width: 96px;
+        height: 96px;
+    }
+    .AboutMe p {
+    font-size: 24px;
+    }
+    .Stack {
+        font-size: 24px;
+    }
+    .Name h1 {
+    font-size: 32px;
+    }
+    .Name p {
+    font-size: 16px;
+    }
     .AboutMe {
         padding: 0 20px;
     }
