@@ -15,6 +15,18 @@
     src: url("fonts/Montserrat-Medium.ttf"); /* Путь к файлу со шрифтом */
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #424040;        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #393737;    /* цвет плашки */
+/*  border-radius: 4px;        закругления плашки */
+/*  border: 3px solid orange;   padding вокруг плашки */
+}
+
 .fa-html5 {
     color: #FF7A00;
 }
@@ -25,6 +37,19 @@
     color: #F5BA45;
 }
 
+#Project-Fores {
+    background-image: url("img/fores.png");
+    
+}
+#Project-Anonime {
+    background-image: url("img/anonime.png");
+    
+}
+#Project-SKSite {
+    background-image: url("img/shokoteamsite.png");
+    
+}
+
 
 * {
     margin: 0;
@@ -33,7 +58,7 @@
 }
 
 body {
-    height: 2489px;/*ПОТОМ УБРАТЬ*/
+/*    height: 2489px;ПОТОМ УБРАТЬ*/
     background-image: url("img/bg.jpg");
     background-size: cover;
     background-position: center;
@@ -225,6 +250,11 @@ body {
 }
 .Project-Stack i {
     font-size: 48px;
+}
+.Project-Stack span {
+    font-family: Montserrat-ExtraBold;
+    font-size: 32px;
+    color: white;
 }
 
 .footer {    
