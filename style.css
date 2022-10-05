@@ -40,7 +40,7 @@ body {
 }
 
 .hr-style {
-	margin: 50px 114px 84px 114px;
+	margin: 82px 114px;
 	padding: 0;
 	height: 2px;
 	border: none;
@@ -227,6 +227,36 @@ body {
     font-size: 48px;
 }
 
+.footer {    
+    padding: 0 114px 16px 114px;
+    margin: 0 auto;
+    
+    color:white;
+}
+.block {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.block .SocialNetworks {
+    margin-top: 79px;
+    margin-bottom: 104px;
+}
+.block p {
+    font-family: Montserrat-Medium;
+    font-size: 24px;
+}
+
+.footer h2 {
+    font-family: Montserrat-ExtraBold;
+    font-size: 48px;
+    line-height: 59px;
+    margin-bottom: 26px;
+}
+
+
 @media (max-width: 1440px) {
     .Stack {
         margin-top: 40px;
@@ -286,5 +316,14 @@ body {
     }
     .Projects-Cards {
         grid-gap: 0;
+    }
+    .footer {    
+    padding: 0 20px 16px 20px;
+    margin: 0 auto;
+    
+    color:white;
+    }
+    .block .SocialNetworks {
+        display: block;
     }
 }
